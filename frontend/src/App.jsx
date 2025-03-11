@@ -3,6 +3,7 @@ import BeritaTerkini from "./components/BeritaTerkini";
 import BeritaList from "./components/BeritaList";
 import Terpopuler from "./components/Terpopuler";
 import Navbar from "./components/Navbar";
+
 const App = () => {
   const [berita, setBerita] = useState([]);
 
@@ -53,6 +54,8 @@ const App = () => {
       <footer className="bg-green-600 text-white text-center p-4 mt-8">
         &copy; 2025 NU Online
       </footer>
+
+
     </div>
   );
 };
