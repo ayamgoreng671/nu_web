@@ -11,7 +11,6 @@ const Navbar = () => {
       <li>Berita</li>
       <li>Video</li>
       <li>Keislaman</li>
-      <li>qwerty</li>
     </ul>
   </nav>
   );
