@@ -14,8 +14,9 @@ Route::middleware(['auth:sanctum'])->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::get('/', function () {
-    return response()->json(["data" => "jawa"]) ;
+    return response()->json(["data" => "jawa"]);
 });
+
 
 Route::get('/news', [NewsController::class, 'index']);
 

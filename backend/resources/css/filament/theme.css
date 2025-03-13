@@ -1,0 +1,5 @@
+@import "admin/theme"; /* Keep Filament's default styles */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

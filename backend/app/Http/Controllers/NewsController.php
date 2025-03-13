@@ -10,7 +10,7 @@ class NewsController extends Controller
 {
     public function index()
     {
-        return response()->json(News::with('category', 'user')->latest()->get());
+        return response()->json(News::with('category', 'user')->orderBy("id")->get());
     }
 
     public function store(Request $request)

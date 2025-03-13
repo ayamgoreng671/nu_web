@@ -1,0 +1,7 @@
+@import url("public/css/filament/filament/app.css");
+@import url("public/css/filament/forms/forms.css");
+@import url("public/css/filament/support/support.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
