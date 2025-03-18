@@ -1,0 +1,47 @@
+[
+    {
+        "id":1,
+        "name":"Lapsus"
+    },
+    {
+        "id":2,
+        "name":"Warta"
+    },
+    {
+        "id":3,
+        "name":"Fragmen"
+    },
+    {
+        "id":4,
+        "name":"Quran"
+    },
+    {
+        "id":5,
+        "name":"Keislaman"
+    },
+    {
+        "id":6,
+        "name":"Opini"
+    },
+
+        {
+        "id":7,
+        "name":"Tokoh"
+    },
+    {
+        "id":8,
+        "name":"Hikmah"
+    },
+    {
+        "id":9,
+        "name":"Download"
+    },
+    {
+        "id":10,
+        "name":"Kesehatan"
+    },
+    {
+        "id":11,
+        "name":"Lainnya"
+    }
+]

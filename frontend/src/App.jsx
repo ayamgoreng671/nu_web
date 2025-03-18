@@ -1,8 +1,12 @@
 import { useState, useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import BeritaTerkini from "./components/BeritaTerkini";
 import BeritaList from "./components/BeritaList";
 import Terpopuler from "./components/Terpopuler";
-import Navbar from "./components/Navbar";
+import News from "./components/Hero";
+import Jawa from "./pages/news/Page";
+
+
 
 const App = () => {
   const [berita, setBerita] = useState([]);
@@ -29,34 +33,47 @@ const App = () => {
   }, []);
 
   return (
-    <div className="font-sans">
-      {/* Navbar */}
-    <Navbar/>
+  // <Router>
+  //   <div className="App">
+        <Routes>
+          <Route path="/" element={<News/>}/>
+          <Route path="/news" element={<Jawa/> } />
+        </Routes>
+  //   </div>
+  // </Router>
 
-      {/* Hero Section */}
-      <section className="bg-gray-200 p-8 text-center">
-        <h1 className="text-3xl font-bold">Berita Utama</h1>
-        <p className="mt-2 text-gray-700">
-          Kumpulan berita terbaru dari NU Online
-        </p>
-      </section>
+    // <div className="font-sans">
+    //   {/* Navbar */}
+    // <Navbar/>
 
-      {/* List Berita */}
+    //   {/* Hero Section */}
+    //   <section className="bg-gray-200 p-8 text-center">
+    //     <h1 className="text-3xl font-bold">Berita Utama</h1>
+    //     <p className="mt-2 text-gray-700">
+    //       Kumpulan berita terbaru dari NU Online
+    //     </p>
+    //   </section>
 
-      <BeritaTerkini />
+    //   {/* List Berita */}
 
-      <section className="bg-gray-200">
-      <Terpopuler />
-      </section>
+    //   <BeritaTerkini />
 
-      <BeritaList />
-      {/* Footer */}
-      <footer className="bg-green-600 text-white text-center p-4 mt-8">
-        &copy; 2025 NU Online
-      </footer>
+    //   <section className="bg-gray-200">
+    //   <Terpopuler />
+    //   </section>
+
+    //   <section>
+    //     {/* <News/> */}
+    //   </section>
+
+    //   <BeritaList />
+    //   {/* Footer */}
+    //   <footer className="bg-green-600 text-white text-center p-4 mt-8">
+    //     &copy; 2025 NU Online
+    //   </footer>
 
 
-    </div>
+    // </div>
   );
 };
 
