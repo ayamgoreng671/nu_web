@@ -1,4 +1,4 @@
-@import "admin/theme"; /* Keep Filament's default styles */
+/* @import "admin/theme"; Keep Filament's default styles */
 
 @tailwind base;
 @tailwind components;

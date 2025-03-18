@@ -11,6 +11,7 @@ use Filament\Pages;
 use Filament\Panel;
 use Filament\PanelProvider;
 use Filament\Support\Colors\Color;
+use Filament\Support\Facades\FilamentAsset;
 use Filament\Widgets;
 use Filament\Widgets\StatsOverviewWidget;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
@@ -21,6 +22,7 @@ use Illuminate\Session\Middleware\StartSession;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 use Filament\Facades\Filament;
+use Filament\Support\Assets\Js;
 use Illuminate\Foundation\Vite;
 
 class AdminPanelProvider extends PanelProvider
@@ -33,6 +35,14 @@ class AdminPanelProvider extends PanelProvider
                 app(Vite::class)('resources/css/app.css')
             );
         });
+
+        // Filament::registerScripts([
+        //     app(Vite::class)('resources/js/filament/admin/app.js') // Load Filament JS
+        // ], true);
+
+        // FilamentAsset::register([
+        //     Js::make('custom-script', __DIR__ . '/../../resources/js/custom.js'),
+        // ]);
     }
     public function panel(Panel $panel): Panel
     {
