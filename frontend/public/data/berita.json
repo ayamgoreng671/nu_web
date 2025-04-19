@@ -1,63 +1,116 @@
 [
     {
+      "id": 1,
       "kategori": "Nasional",
       "judul": "Pesantren Mahasiswa Al-Hikam Malang Kembali Gelar Festival Ilmiah Santri",
       "waktu": "Sabtu, 8 Februari 2025 | 18:00 WIB",
       "gambar": "https://storage.nu.or.id/storage/post/1_1/mid/img-6321_1708426425.webp"
     },
     {
+      "id": 2,
       "kategori": "Nasional",
       "judul": "Ngaji Ramadhan, Gus Ulil Bedah Kitab Jawahirul Quran Karya Imam Al-Ghazali",
       "waktu": "Sabtu, 8 Februari 2025 | 14:03 WIB",
       "gambar": "https://storage.nu.or.id/storage/post/1_1/mid/img-6321_1708426425.webp"
     },
     {
+      "id": 3,
       "kategori": "Nasional",
       "judul": "Pergunu Sorot Permasalahan SNBP yang Menimpa Siswa: Sekolah Perlu Bentuk Satgas",
       "waktu": "Sabtu, 8 Februari 2025 | 13:03 WIB",
       "gambar": "https://storage.nu.or.id/storage/post/1_1/mid/img-6321_1708426425.webp"
     },
     {
+      "id": 4,
       "kategori": "Hikmah",
       "judul": "Kisah Kegigihan Arsabandi di Tengah Keterbatasan dalam Menuntut Ilmu",
       "waktu": "Jumat, 7 Februari 2025 | 15:00 WIB",
       "gambar": "https://storage.nu.or.id/storage/post/1_1/mid/img-6321_1708426425.webp"
     },
     {
+      "id": 5,
       "kategori": "Nasional",
       "judul": "Munas NU 2025: Pelibatan Diri dalam Kemanusiaan pada Konflik Negara Lain Fardu Kifayah",
       "waktu": "Jumat, 7 Februari 2025 | 22:00 WIB",
       "gambar": "https://storage.nu.or.id/storage/post/1_1/mid/img-6321_1708426425.webp"
     },
     {
+      "id": 6,
       "kategori": "Nasional",
       "judul": "Munas NU 2025 Putuskan Hukum Jual Beli Properti di Atas Tanah Wakaf",
       "waktu": "Jumat, 7 Februari 2025 | 21:00 WIB",
       "gambar": "https://storage.nu.or.id/storage/post/1_1/mid/img-6321_1708426425.webp"
     },
     {
+      "id": 7,
       "kategori": "Nasional",
       "judul": "Munas NU 2025: Status Muslim di Negara Mayoritas Non-Muslim adalah Setara sebagai Warga Negara",
       "waktu": "Jumat, 7 Februari 2025 | 20:30 WIB",
       "gambar": "https://storage.nu.or.id/storage/post/1_1/mid/img-6321_1708426425.webp"
     },
     {
+      "id": 8,
       "kategori": "Nasional",
       "judul": "Greg Barton: Makin Modern NU ini, Makin Canggih",
       "waktu": "Jumat, 7 Februari 2025 | 19:30 WIB",
       "gambar": "https://storage.nu.or.id/storage/post/1_1/mid/img-6321_1708426425.webp"
     },
     {
+      "id": 9,
       "kategori": "Nasional",
       "judul": "Ketika Tim Pertabiban Pagar Nusa Jaga Kebugaran Peserta Harlah Ke-102 NU di Istora",
       "waktu": "Jumat, 7 Februari 2025 | 18:00 WIB",
       "gambar": "https://storage.nu.or.id/storage/post/1_1/mid/img-6321_1708426425.webp"
     },
     {
+      "id": 10,
       "kategori": "Hikmah",
       "judul": "Meneladani Kesabaran dan Tawakal dari Kisah Nabi Ayyub",
       "waktu": "Jumat, 7 Februari 2025 | 16:00 WIB",
       "gambar": "https://storage.nu.or.id/storage/post/1_1/mid/img-6321_1708426425.webp"
+    },
+    {
+      "id": 11,
+      "kategori": "Syariah",
+      "judul": "Ketentuan Zakat Fitrah di Tanah Rantau",
+      "deskripsi": "Bagaimana ketentuan membayar zakat di tanah rantau?",
+      "waktu": "Senin, 17 Maret 2025 | 17:00 WIB",
+      "gambar": "https://placehold.co/600x400"
+    },
+    {
+      "id": 12,
+      "kategori": "Fragmen",
+      "judul": "Kisah Mualaf Belanda dan Tionghoa yang Memeluk Islam lewat Cabang-cabang NU",
+      "waktu": "Ahad, 16 Maret 2025 | 23:32 WIB",
+      "gambar": "https://placehold.co/200x200"
+    },
+    {
+      "id": 13,
+      "kategori": "Nasional",
+      "judul": "NU Care-LAZISNU PBNU Adakan Pelatihan Guru Bahasa Isyarat",
+      "waktu": "Ahad, 16 Maret 2025 | 15:30 WIB",
+      "gambar": "https://placehold.co/200x200"
+    },
+    {
+      "id": 14,
+      "kategori": "Tafsir",
+      "judul": "Tafsir Surat Ad-Dukhan Ayat 3: Al-Quran Diturunkan Malam Lailatul Qadar",
+      "waktu": "Ahad, 16 Maret 2025 | 10:00 WIB",
+      "gambar": "https://placehold.co/300x200"
+    },
+    {
+      "id": 15,
+      "kategori": "Internasional",
+      "judul": "Dakwah Dai Indonesia di Jepang, dari Dapur Menuju Masjid yang Makmur",
+      "waktu": "Senin, 17 Maret 2025 | 09:00 WIB",
+      "gambar": "https://placehold.co/300x200"
+    },
+    {
+      "id": 16,
+      "kategori": "Ramadhan",
+      "judul": "Kultum Ramadhan: Mari Jadikan Al-Quran sebagai Pedoman Hidup",
+      "waktu": "Ahad, 16 Maret 2025 | 15:00 WIB",
+      "gambar": "https://placehold.co/300x200"
     }
   ]
   

@@ -11,7 +11,7 @@ const Terpopuler = () => {
   ];
 
   return (
-    <div className="max-w-4xl mx-auto p-4 ">
+    <div className="max-w-5xl mx-auto p-4 ">
       {/* Judul */}
       <h2 className="text-2xl font-bold border-teal-700 border-b-2 pb-2 flex items-center">
         Terpopuler <br />

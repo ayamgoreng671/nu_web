@@ -7,6 +7,8 @@ import Ayam from './Ayam.jsx'
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Category from "./components/Category";
 // import App from "./App";
 
 
@@ -14,9 +16,10 @@ import Navbar from "./components/Navbar";
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-    <Navbar/>
-      <App />
-      <Ayam/>
+      <Navbar/>
+        <App/>
+        {/* <Ayam/> */}
+        <Footer/>
     </BrowserRouter>
   </StrictMode>,
 )

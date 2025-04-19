@@ -1,14 +1,13 @@
 import React from 'react'
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import BeritaTerkini from "./BeritaTerkini";
-import BeritaList from "./BeritaList";
-import Terpopuler from "./Terpopuler";
+import BeritaTerkini from "../components/BeritaTerkini";
+import BeritaList from "../components/BeritaList";
+import Terpopuler from "../components/Terpopuler";
+import Topik from "../components/Topik";
 import News from "./Hero";
 // import Jawa from "@/pages/news/Page";
-import Navbar from "./Navbar";
-import Category from "./Category";
-
+import Navbar from "../components/Navbar";
 const Hero = () => {
   const [berita, setBerita] = useState([]);
 
@@ -34,45 +33,22 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="font-sans mt-20">
-      <Category/>
-
-
-      {/* Hero Section */}
-      <section className="bg-gray-200 p-8 text-center">
-        <h1 className="text-3xl font-bold">Berita Utama</h1>
-        <p className="mt-2 text-gray-700">
-          Kumpulan berita terbaru dari NU Online
-        </p>
-      </section>
-
-      {/* nav under */}
-      
-
-
-      {/* List Berita */}
+    <div className="font-sans flex-1">
+      <section>
       <BeritaList />
-
-      
-
+      </section>
+ 
       <section className="bg-gray-200 py-5">
       <Terpopuler />
       </section>
 
       <section>
-        {/* <News/> */}
         <BeritaTerkini />
       </section>
 
       <section className="bg-gray-200 py-5">
-      <Terpopuler />
+      <Topik/>
       </section>
-
-      
-      {/* Footer */}
-      <footer className="bg-teal-700 text-white text-center p-4 mt-8">
-        &copy; 2025 NU Online
-      </footer>
 
 
     </div>

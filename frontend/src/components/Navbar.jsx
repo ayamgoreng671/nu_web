@@ -6,9 +6,19 @@ import { IoMdArrowDropdown } from "react-icons/io";
 
 const Navbar = () => {
   const [darkMode, setDarkMode] = useState(false);
+  const [newsData, setNewsData] = useState([]);
+
+  
+  useEffect(() => {
+    fetch("/data/navMenuList.json") // Fetch from public folder
+      .then((response) => response.json())
+      .then((data) => setNewsData(data))
+      .catch((error) => console.error("Error fetching news:", error));
+  }, []);
 
 
   return (
+    <div>
     <header className="fixed top-0 left-0 w-full bg-white z-50">
       <div className="container mx-auto py-2 flex justify-between items-center max-w-9xl px-60">
         {/* Logo */}
@@ -48,8 +58,33 @@ const Navbar = () => {
       </div>
 
       {/* Navigation Menu */}
+      
+      
 
     </header>
+    <div className="flex justify-center mt-20">
+      <nav className="bg-teal-700 text-white fixed z-1 rounded-br-lg rounded-bl-lg">
+        <div className="container mx-auto px-6 py-2 flex justify-around gap-10 text-sm font-medium rounded-br-lg rounded-bl-lg">
+          {newsData.map((item, i) => (
+            <a className="hover:underline" key={i} href={item.url || "#"}>
+              {item.name}
+            </a>
+          ))}
+        </div>
+      </nav>
+
+      <div className="flex mx-auto mt-9 max-w-5xl">
+          <div className="text-center py-1 text-gray-700 text-xs">
+            Jatim | Jateng | Jabar | Lampung | Jakarta | Kepri | Banten | Jombang
+          </div>
+
+        {/* Date Section */}
+          <div className="text-center text-gray-500 text-xs py-1">
+            Monday, 17 March 2025
+          </div>
+      </div>
+    </div>
+    </div>
   );
 };
 

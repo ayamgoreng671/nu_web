@@ -7,7 +7,7 @@ const Page = () => {
   
   return (
     <div>
-        {/* <NewsDetail/> */}
+        <NewsDetail/>
         <h2>ayam</h2>
     </div>
   )
