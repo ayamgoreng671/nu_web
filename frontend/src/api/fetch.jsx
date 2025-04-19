@@ -1,8 +1,9 @@
 import axios from "axios";
-
+const BASE_URL = import.meta.env.VITE_BACKEND_URL;
 export const fetchNews = async (setNews) => {
   try {
-    const response = await axios.get("http://127.0.0.1:8000/api/news");
+    console.log("jawa" + BASE_URL);
+    const response = await axios.get(BASE_URL + "api/news");
     setNews(response.data);
     return response.data;
   } catch (error) {
@@ -23,7 +24,7 @@ export const fetchScheduleCity = async (setScheduleCitys) => {
 };
 export const fetchSchedule = async (setSchedules) => {
   try {
-    const response = await axios.get("http://127.0.0.1:8000/api/news");
+    const response = await axios.get(BASE_URL + "api/news");
     setSchedules(response.data);
     return response.data;
   } catch (error) {
